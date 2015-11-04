@@ -1,0 +1,156 @@
+/* line 5, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+    line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+    list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+    quotes: none;
+}
+
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+    border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+header {
+    background: url("../images/sunset-resized.jpg");
+    width: 1440px;
+    height: 855px;
+    margin: 0 auto;
+}
+
+#top {
+    width: 1440px;
+    height: 100px;
+}
+
+.logo {
+    width: 150px;
+    color: #ffffff;
+    font-size: 49px;
+    position: relative;
+    top: 25px;
+    left: 190px;
+}
+
+.login {
+    width: 260px;
+    position: relative;
+    top: -17px;
+    left: 1006px;
+}
+
+.login li {
+    margin: 0 10px;
+    font-size: 17px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.login button{
+    color: #ffffff;
+    font-size: 16px;
+    background: rgba(255,255,255,0);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 19px;
+}
+
+#center{
+    width: 650px;
+    height: 170px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
+
+#center p{
+    font-size: 36px;
+    text-align: center;
+    color: #cccccc;
+}
+
+#center small{
+    font-size: 16px;
+    display: inline-block;
+    margin: 14px 171px;
+    color: #cccccc;
+}
+
+#center .text{
+    margin: 13px 0px;
+    width: 520px;
+    height: 56px;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    font-size: 15px;
+    color: #cccccc;
+}
+
+#center .button{
+    background: rgba(103,221,171,1);
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    width: 120px;
+    height: 58px;
+    border-radius: 3px;
+}
