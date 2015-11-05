@@ -67,90 +67,120 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/style.scss */
 body {
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
 }
 
-header {
-    background: url("../images/sunset-resized.jpg");
-    width: 1440px;
+.header {
+    width: 100%;
     height: 855px;
-    margin: 0 auto;
+    position: relative;
+}
+.background{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: url("../images/sunset-resized.jpg");
+    background-size: cover;
+    -webkit-filter:brightness(0.7);   
 }
 
-#top {
-    width: 1440px;
-    height: 100px;
+.header-container{
+    max-width: 1060px;
+    margin: 0 auto 0 auto;
 }
 
-.logo {
+.header-top {
+    overflow: hidden;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header .leftpart {
     width: 150px;
     color: #ffffff;
     font-size: 49px;
-    position: relative;
-    top: 25px;
-    left: 190px;
+    float: left;
 }
 
-.login {
+.header .rightpart {
     width: 260px;
-    position: relative;
-    top: -17px;
-    left: 1006px;
+    float: right;
 }
 
-.login li {
+.rightpart .agents,
+.rightpart .login{
     margin: 0 10px;
     font-size: 17px;
     color: #ffffff;
     display: inline-block;
 }
 
-.login button{
+.rightpart .signup{
     color: #ffffff;
     font-size: 16px;
     background: rgba(255,255,255,0);
-    border: 1px solid white;
+    border: 1px solid #FFF;
     border-radius: 5px;
     padding: 8px 19px;
-}
-
-#center{
-    width: 650px;
-    height: 170px;
-    position: relative;
-    top: 200px;
-    left: 400px;
-}
-
-#center p{
-    font-size: 36px;
-    text-align: center;
-    color: #cccccc;
-}
-
-#center small{
-    font-size: 16px;
+    text-decoration: none;
     display: inline-block;
-    margin: 14px 171px;
+}
+
+.header-center{
+    text-align: center;
+    height: 170px;
+    margin: 200px auto 0 auto;
+}
+
+.header-center p{
+    font-size: 34px;
+    text-align: center;
+    color: #FFF;
+}
+
+.header-center .tips{
+    margin: 15px;
+    text-align: center;
+    font-size: 13px;
     color: #cccccc;
 }
 
-#center .text{
-    margin: 13px 0px;
-    width: 520px;
-    height: 56px;
+.searchtextbox{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    max-width: 660px;
+}
+
+.searchtextbox input{
+    outline: 0;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
     background: rgba(255,255,255,0.5);
     border: none;
-    font-size: 15px;
-    color: #cccccc;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 18px 10px 18px 10px;
+    color: #FFF;
 }
 
-#center .button{
+.searchtextbox button{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
     background: rgba(103,221,171,1);
     border: none;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 18px 10px 18px 10px;
     width: 120px;
-    height: 58px;
-    border-radius: 3px;
 }
