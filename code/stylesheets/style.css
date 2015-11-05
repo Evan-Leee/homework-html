@@ -67,120 +67,175 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/style.scss */
 body {
     font-size: 62.5%;
-    font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
 }
 
-.header {
+section {
+    width: 75%;
+    position:relative;
+    margin: 0px auto;
+}
+
+header {
     width: 100%;
     height: 855px;
     position: relative;
+    margin: 0px auto;
 }
-.background{
+
+.background {
     z-index: -1;
     position: absolute;
     width: 100%;
     min-height: 100%;
     background: url("../images/sunset-resized.jpg");
     background-size: cover;
-    -webkit-filter:brightness(0.7);
+    -webkit-filter: brightness(0.7);
 }
 
-.header-container{
+.header-container {
     max-width: 1060px;
     margin: 0 auto 0 auto;
 }
 
 .header-top {
     overflow: hidden;
-    padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-top: 26px;
 }
 
-.header .leftpart {
+.leftpart {
     width: 150px;
     color: #ffffff;
     font-size: 49px;
     float: left;
 }
 
-.header .rightpart {
-    width: 260px;
+.rightpart {
+    width: 243px;
     float: right;
+    padding-top: 7px;
 }
 
 .rightpart .agents,
-.rightpart .login{
+.rightpart .login {
     margin: 0 10px;
     font-size: 17px;
     color: #ffffff;
     display: inline-block;
+    text-decoration: none;
 }
 
-.rightpart .signup{
+.rightpart .signup {
     color: #ffffff;
     font-size: 16px;
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 1px solid #FFF;
     border-radius: 5px;
-    padding: 8px 19px;
+    padding: 9px 20px;
+    margin-left: 6px;
     text-decoration: none;
     display: inline-block;
 }
 
-.header-center{
+.header-center {
     text-align: center;
     height: 170px;
-    margin: 200px auto 0 auto;
+    margin: 230px auto 0 auto;
 }
 
-.header-center p{
-    font-size: 34px;
+.header-center p {
+    font-size: 36px;
     text-align: center;
     color: #FFF;
 }
 
-.header-center .tips{
+.header-center .tips {
     margin: 15px;
     text-align: center;
     font-size: 13px;
     color: #ffffff;
 }
 
-.searchtextbox{
+.searchtextbox {
     position: relative;
     overflow: hidden;
     display: block;
-    margin: 0 auto;
+    margin: 24px auto;
     border-radius: 3px;
-    max-width: 660px;
+    max-width: 640px;
 }
 
-.searchtextbox input{
+.searchtextbox input {
     outline: 0;
     float: left;
     display: inline-block;
     margin: 0;
-    width: 100%;
-    background: rgba(255,255,255,0.5);
+    width: 79%;
+    background: rgba(255, 255, 255, 0.5);
     border: none;
     font-size: 18px;
     line-height: 18px;
-    height: 18px;
+    height: 24px;
     padding: 18px 10px 18px 10px;
     color: #FFF;
 }
 
-.searchtextbox button{
+.searchtextbox button {
     cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
-    background: rgba(103,221,171,1);
+    background: rgba(103, 221, 171, 1);
     border: none;
     color: #ffffff;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 24px;
     padding: 18px 10px 18px 10px;
-    width: 120px;
+    width: 18%;
+}
+
+.tags {
+    margin: 0px auto;
+    width: 1060px;
+    height: 150px;
+    border-radius: 5px;
+    background: #f4f3f1;
+    border: 1px solid #dddddd;
+    position: absolute;
+    top: 766px;
+    left: 184px;
+
+}
+
+.tags li {
+    display: inline-block;
+    margin: 0px;
+    padding: 35px 84px;
+    text-align: center;
+}
+
+.tags strong,
+.tags small {
+    display: block;
+    line-height: 40px;
+}
+
+.tags small{
+    color: #aaaaaa;
+    font-size: 12px;
+}
+.tags strong{
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.right-border {
+    border-right: 1px solid #dddddd;
+}
+
+article {
+    background: #f4f3f1;
+    width:100%;
+    height:634px;
+    border-bottom: 1px solid #dddddd;
 }
