@@ -72,76 +72,77 @@ body {
 
 header {
     background: url("../images/sunset-resized.jpg");
-    width: 1440px;
+    width: 75%;
     height: 855px;
     margin: 0 auto;
+    position: relative;
 }
 
 #top {
-    width: 1440px;
+    width: 100%;
     height: 100px;
 }
 
 .logo {
-    width: 150px;
+    width: 15%;
     color: #ffffff;
-    font-size: 49px;
-    position: relative;
-    top: 25px;
-    left: 190px;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 3%;
+    left: 13%;
 }
 
 .login {
-    width: 260px;
-    position: relative;
-    top: -17px;
-    left: 1006px;
+    width: 25%;
+    position: absolute;
+    top: 3.8%;
+    left: 70.2%;
 }
 
 .login li {
     margin: 0 10px;
-    font-size: 17px;
+    font-size: 0.85vw;
     color: #ffffff;
     display: inline-block;
 }
 
 .login button{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 0.85vw;
     background: rgba(255,255,255,0);
     border: 1px solid white;
     border-radius: 5px;
-    padding: 8px 19px;
+    padding: 8px 21px;
 }
 
 #center{
-    width: 650px;
+    width: 46%;
     height: 170px;
-    position: relative;
-    top: 200px;
-    left: 400px;
+    position: absolute;
+    top: 35%;
+    left: 27.6%;
 }
 
 #center p{
-    font-size: 36px;
+    font-size: 1.9vw;
     text-align: center;
     color: #cccccc;
 }
 
 #center small{
-    font-size: 16px;
-    display: inline-block;
-    margin: 14px 171px;
+    font-size: 0.82vw;
+    display: block;
+    margin: 2.2% 26.1%;
     color: #cccccc;
 }
 
 #center .text{
     margin: 13px 0px;
-    width: 520px;
-    height: 56px;
+    width: 79%;
+    height: 35%;
     background: rgba(255,255,255,0.5);
     border: none;
-    font-size: 15px;
+    font-size: 0.8vw;
     color: #cccccc;
 }
 
@@ -149,8 +150,8 @@ header {
     background: rgba(103,221,171,1);
     border: none;
     color: #ffffff;
-    font-size: 15px;
-    width: 120px;
-    height: 58px;
+    font-size: 0.8vw;
+    width: 18.8%;
+    height: 35%;
     border-radius: 3px;
 }
