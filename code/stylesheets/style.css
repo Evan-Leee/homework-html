@@ -72,6 +72,7 @@ body {
 
 header {
     background: url("../images/sunset-resized.jpg");
+    background-size: cover;
     width: 75%;
     height: 855px;
     margin: 0 auto;
@@ -112,7 +113,8 @@ header {
     background: rgba(255,255,255,0);
     border: 1px solid white;
     border-radius: 5px;
-    padding: 8px 21px;
+    padding: 0.4vw 1vw;
+    cursor: pointer;
 }
 
 #center{
@@ -126,14 +128,14 @@ header {
 #center p{
     font-size: 1.9vw;
     text-align: center;
-    color: #cccccc;
+    color: #bbbbbb;
 }
 
 #center small{
     font-size: 0.82vw;
     display: block;
     margin: 2.2% 26.1%;
-    color: #cccccc;
+    color: #bbbbbb;
 }
 
 #center .text{
@@ -152,6 +154,9 @@ header {
     color: #ffffff;
     font-size: 0.8vw;
     width: 18.8%;
-    height: 35%;
-    border-radius: 3px;
+    height: 36.4%;
+    border-top-left-radius:0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 0px;;
 }
