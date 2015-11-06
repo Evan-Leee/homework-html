@@ -439,6 +439,7 @@ article .second-content ul .right-text p:nth-child(2) {
 footer .footer-top{
     background: url("../images/sunset-resized.jpg");
     background-size: cover;
+    background-position: -300px;
     width: 100%;
     min-height: 100%;
     padding: 110px 0px;
