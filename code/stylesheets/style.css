@@ -233,8 +233,8 @@ header {
 .first {
     background: #f4f3f1;
     width: 100%;
-    height: 634px;
     border-bottom: 1px solid #dddddd;
+    padding-bottom: 160px;
 }
 
 .second {
@@ -272,16 +272,15 @@ article .second-title hr {
 }
 
 article .number {
-    padding-left: 308px;
-    padding-top: 51px;
-}
-
-article .number span,
-article .number hr {
-    display: inline-block;
+    max-width: 823px;
+    margin: 0 auto;
+    height: 42px;
+    position: relative;
 }
 
 article .number span {
+    position: absolute;
+    display: block;
     background: #ffffff;
     width: 40px;
     height: 40px;
@@ -294,10 +293,35 @@ article .number span {
     color: #666666;
 }
 
-article .number hr {
-    width: 340px;
+article .number span:nth-child(1){
+    top: 0;
+    left: 0;
+}
+
+article .number span:nth-child(3){
+    position: relative;
+    margin: 0 auto;
+}
+
+article .number span:nth-child(5){
+    top: 0;
+    right: 0;
+}
+
+article .number hr{
+    top: 12px;
+    width: 35%;
     border: none;
     border-top: 1px solid #dddddd;
+    position: absolute;
+}
+
+article .number hr:nth-child(2){
+    left: 10%;
+}
+
+article .number hr:nth-child(4){
+    right: 10%;
 }
 
 article .content {
