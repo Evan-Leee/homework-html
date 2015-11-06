@@ -71,7 +71,7 @@ body {
 }
 
 section {
-    width: 1440px;
+    max-width: 1440px;
     position: relative;
     margin: 0px auto;
 }
@@ -186,22 +186,26 @@ header {
     width: 19%;
 }
 
+.tagswrap{
+    position: absolute;
+    top: 766px;
+    width: 100%;
+}
+
 .tags {
     margin: 0px auto;
-    width: 1060px;
-    height: 150px;
+    max-width: 1060px;
     border-radius: 5px;
     background: #f4f3f1;
     border: 1px solid #dddddd;
-    position: absolute;
-    top: 766px;
-    left: 189px;
+
 }
 
 .tags li {
+    width: 24%;
     display: inline-block;
     margin: 0px;
-    padding: 35px 80px;
+    padding: 35px 0;
     text-align: center;
 }
 
