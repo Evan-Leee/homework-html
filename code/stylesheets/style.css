@@ -72,7 +72,7 @@ body {
 
 section {
     width: 1440px;
-    position:relative;
+    position: relative;
     margin: 0px auto;
 }
 
@@ -157,20 +157,14 @@ header {
 }
 
 .searchtextbox {
-    position: relative;
     overflow: hidden;
-    display: block;
     margin: 24px auto;
     border-radius: 3px;
     max-width: 640px;
 }
 
-.searchtextbox input {
-    outline: 0;
-    float: left;
-    display: inline-block;
+.searchtextbox .text {
     margin: 0;
-    width: 79%;
     background: rgba(255, 255, 255, 0.5);
     border: none;
     font-size: 18px;
@@ -178,20 +172,18 @@ header {
     height: 24px;
     padding: 18px 10px 18px 10px;
     color: #FFF;
+    width: 77.6%;
 }
 
-.searchtextbox button {
+.searchtextbox .button {
     cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
     background: rgba(103, 221, 171, 1);
     border: none;
     color: #ffffff;
     font-size: 18px;
-    line-height: 24px;
+    height: 60px;
     padding: 18px 10px 18px 10px;
-    width: 18%;
+    width: 19%;
 }
 
 .tags {
@@ -219,13 +211,15 @@ header {
     line-height: 40px;
 }
 
-.tags small{
+.tags small {
     color: #aaaaaa;
     font-size: 12px;
 }
-.tags strong{
+
+.tags strong {
     font-size: 27px;
     font-weight: bolder;
+    color: #4d4d4d;
 }
 
 .right-border {
@@ -234,56 +228,56 @@ header {
 
 .first {
     background: #f4f3f1;
-    width:100%;
-    height:634px;
+    width: 100%;
+    height: 634px;
     border-bottom: 1px solid #dddddd;
 }
 
 .second {
     background: #f4f3f1;
-    width:100%;
-    height:760px;
+    width: 100%;
+    height: 760px;
     border-bottom: 1px solid #dddddd;
 }
 
 .third {
     background: #f4f3f1;
-    width:100%;
-    height:634px;
+    width: 100%;
+    height: 634px;
     border-bottom: 1px solid #dddddd;
 }
 
-article .first-title{
+article .first-title {
     text-align: center;
     padding-top: 143px;
 }
 
 article .first-title p,
-article .second-title p{
-    color: black;
+article .second-title p {
+    color: #666666;
     font-size: 16px;
     font-weight: bold;
 }
 
 article .first-title hr,
-article .second-title hr{
+article .second-title hr {
     width: 40px;
     margin-top: 12px;
     border: none;
     border-top: 2px solid #dddddd;
 }
 
-article .number{
+article .number {
     padding-left: 308px;
     padding-top: 51px;
 }
 
 article .number span,
-article .number hr{
+article .number hr {
     display: inline-block;
 }
 
-article .number span{
+article .number span {
     background: #ffffff;
     width: 40px;
     height: 40px;
@@ -293,50 +287,54 @@ article .number span{
     font-size: 20px;
     font-weight: bold;
     border: 1px solid #dddddd;
+    color: #666666;
 }
 
-article .number hr{
+article .number hr {
     width: 340px;
     border: none;
     border-top: 1px solid #dddddd;
 }
 
-article .content{
+article .content {
     padding-left: 138px;
     padding-top: 33px;
 }
 
-article .content .lower-title{
+article .content .lower-title {
     font-size: 17px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 16px;
+    color: #666666;
 }
 
-article .content .text{
+article .content .text {
     font-size: 14px;
     overflow: hidden;
     width: 100%;
+    line-height: 16px;
+    color: #9b9b9b;
 }
 
-article .content .block{
-    vertical-align:top;
+article .content .block {
+    vertical-align: top;
     text-align: center;
     padding: 0px 53px;
     width: 279px;
     display: inline-block;
 }
 
-article .second-title{
+article .second-title {
     text-align: center;
     padding-top: 102px;
 }
 
-article .second-content{
+article .second-content {
     padding: 0px 100px;
 }
 
-article .second-content ul{
+article .second-content ul {
     width: 503px;
     padding-top: 65px;
     padding-left: 84px;
@@ -345,31 +343,141 @@ article .second-content ul{
     display: inline-block;
 }
 
-article .second-content ul li img{
+article .second-content ul li img {
     display: inline-block;
     vertical-align: top;
 }
 
-article .second-content ul li{
+article .second-content ul li {
     margin-bottom: 30px;
 }
 
-article .second-content ul .right-text{
+article .second-content ul .right-text {
     padding: 6px 36px;
     display: inline-block;
     vertical-align: top;
     width: 388px;
 }
 
-article .second-content ul .right-text p:nth-child(1){
+article .second-content ul .right-text p:nth-child(1) {
     font-size: 18px;
     font-weight: bold;
+    color: #666666;
 }
 
-article .second-content ul .right-text p:nth-child(2){
+article .second-content ul .right-text p:nth-child(2) {
     overflow: hidden;
     margin-top: 10px;
     font-size: 14px;
     line-height: 20px;
+    color: #9a9a9c;
 }
 
+.third .tab {
+    overflow: hidden;
+    padding-top: 80px;
+    padding-left: 534px;
+
+}
+
+.third .border {
+    width: 370px;
+    border: 2px solid #9195a1;
+    border-radius: 3px;
+}
+
+.third .tab button:nth-child(1) {
+    cursor: pointer;
+    background: #606779;
+    border: none;
+    width: 185px;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.third .tab button:nth-child(2) {
+    cursor: pointer;
+    background: #f4f3f1;
+    border: none;
+    width: 185px;
+    height: 60px;
+    font-size: 16px;
+    color: #80808f;
+}
+
+.third p:nth-child(2) {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d6d6d6;
+}
+
+.third p:nth-child(3) {
+    text-align: center;
+    margin: 0px auto;
+    width: 1045px;
+    font-size: 19px;
+    line-height: 25px;
+    color: #80808f;
+}
+
+.third .images {
+    text-align: center;
+}
+
+.third .images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 123px 27px;
+    -webkit-filter: grayscale(1) opacity(0.3);
+
+}
+
+footer .footer-top{
+    background: url("../images/sunset-resized.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    padding: 110px 0px;
+    text-align: center;
+}
+
+footer .footer-top .searchtextbox{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    width: 640px;
+}
+
+footer .footer-top span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 27px;
+    margin: 0px 7px;
+    line-height: 53px;
+    color: #ffffff;
+}
+
+footer .footer-bottom {
+    height: 70px;
+    width: 100%;
+}
+
+footer .footer-bottom ul{
+    padding-top: 30px;
+    padding-left: 189px;
+}
+
+footer .footer-bottom li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+footer .footer-bottom li a{
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 17px;
+}
