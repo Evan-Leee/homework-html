@@ -71,7 +71,7 @@ body {
 }
 
 section {
-    width: 76%;
+    width: 1440px;
     position: relative;
     margin: 0px auto;
 }
@@ -111,7 +111,7 @@ header {
 }
 
 .rightpart {
-    width: 243px;
+    width: 270px;
     float: right;
     padding-top: 7px;
 }
@@ -159,7 +159,7 @@ header {
 .searchtextbox {
     overflow: hidden;
     margin: 24px auto;
-    border-radius: 3px;
+    border-radius: 5px;
     max-width: 640px;
 }
 
@@ -201,7 +201,7 @@ header {
 .tags li {
     display: inline-block;
     margin: 0px;
-    padding: 35px 84px;
+    padding: 35px 80px;
     text-align: center;
 }
 
@@ -313,7 +313,7 @@ article .content .text {
     font-size: 14px;
     overflow: hidden;
     width: 100%;
-    line-height: 16px;
+    line-height: 20px;
     color: #9b9b9b;
 }
 
@@ -335,7 +335,7 @@ article .second-content {
 }
 
 article .second-content ul {
-    width: 503px;
+    width: 510px;
     padding-top: 65px;
     padding-left: 84px;
     padding-right: 20px;
